@@ -1,6 +1,8 @@
 # Kafka Replicator
 
-This little application allows you to replicate a Kafka topic to another cluster. Basically it creates a consumer on a source Kafka cluster and then creates a producer to the destination Kafka cluster. 
+This little application allows you to replicate a Kafka topic to another cluster. Basically it creates a consumer on a source Kafka cluster and then creates a producer to the destination Kafka cluster.
+
+:warning: Important: for binary data only -> You can change this by modifying encoding in consumer option with `utf8` instead of `buffer`
 
 # Running it
 
