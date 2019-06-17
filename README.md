@@ -6,11 +6,11 @@ This little application allows you to replicate a Kafka topic to another cluster
 
 ## Parameters
 
-SOURCE : Kafka Bootstrap servers from cluster source (list comma delimited)
-DESTINATION : Kafka Bootstrap servers from cluster destination (list comma delimited)
-TOPIC : topic to replicate (the name will be the same on source and desitnation end)
-TIMER : time in ms before the script exits (when a Kafka cluster is down for example)
-GROUPID : consumer group id
+- SOURCE : Kafka Bootstrap servers from cluster source (list comma delimited)
+- DESTINATION : Kafka Bootstrap servers from cluster destination (list comma delimited)
+- TOPIC : topic to replicate (the name will be the same on source and desitnation end)
+- TIMER : time in ms before the script exits (when a Kafka cluster is down for example)
+- GROUPID : consumer group id
 
 
 ## Run with Docker
