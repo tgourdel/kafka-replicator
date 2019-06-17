@@ -4,6 +4,7 @@ const DESTINATION = process.env.DESTINATION || "";
 const TOPIC = process.env.TOPIC || "";
 const TIMER = process.env.TIMER || 15000;
 const GROUPID = process.env.GROUPID || "";
+const ENCODING = process.env.ENCODING || "buffer";
 
 // Modules
 var kafka = require('kafka-node');
@@ -25,7 +26,7 @@ consumer = new Consumer(
     ],
      {
          autoCommit: true,
-         encoding: 'buffer',
+         encoding: ENCODING,
          groupId: GROUPID
      }
 );

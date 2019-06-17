@@ -13,6 +13,8 @@ This little application allows you to replicate a Kafka topic to another cluster
 - TOPIC : topic to replicate (the name will be the same on source and desitnation end)
 - TIMER : time in ms before the script exits (when a Kafka cluster is down for example)
 - GROUPID : consumer group id
+- ENCODING : `buffer` by default for binary data, change with `utf8` for non-binary data
+
 
 
 ## Run with Docker
