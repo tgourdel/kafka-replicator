@@ -1,0 +1,15 @@
+{
+  "name": "replicator",
+  "version": "1.0.0",
+  "description": "Kafka topic replicator",
+  "author": "Thibaut Gourdel <tgourdel@talend.com>",
+  "main": "replicator.js",
+  "scripts": {
+    "start": "node replicator.js"
+  },
+  "dependencies": {
+    "avsc": "^5.4.11",
+    "kafka-node": "^2.5.0",
+    "utf8": "^3.0.0"
+  }
+}
